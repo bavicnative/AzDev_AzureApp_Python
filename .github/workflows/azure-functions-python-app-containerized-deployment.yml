@@ -1,14 +1,14 @@
 name: azure-functions-python-app-containerized-deployment
 
 env:
-  AZURE_FUNCTIONAPP_NAME: "demo-python-function-app"
-  AZURE_FUNCTIONAPP_RESOURCE_GROUP_NAME: "python-container-app-rg"
+  AZURE_FUNCTIONAPP_NAME: "azure-container-python-app"
+  AZURE_FUNCTIONAPP_RESOURCE_GROUP_NAME: "azure-container-python-app_group"
   PYTHON_VERSION: "3.11"
   IMAGE_NAME: azure-python-function-app
   IMAGE_TAG: v1
-  AZURE_REGISTRY_LOGIN_SERVER: "demoacr1234.azurecr.io"
-  AZURE_REGISTRY_SERVER_NAME: "demoacr1234"
-  AZURE_REGISTRY_USERNAME: demoacr1234
+  AZURE_REGISTRY_LOGIN_SERVER: "demoapp12546.azurecr.io"
+  AZURE_REGISTRY_SERVER_NAME: "demoapp12546"
+  AZURE_REGISTRY_USERNAME: demoapp12546
   DOCKER_EXPOSE_PORT: 80
 
 # Controls when the workflow will run
